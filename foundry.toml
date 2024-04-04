@@ -5,6 +5,10 @@ libs = ["lib"]
 remappings = [
     "ds-test/=lib/forge-std/lib/ds-test/src/",
     "forge-std/=lib/forge-std/src/",
+    "solmate/=src/external/Factory/lib/solmate/src/",
+    "openzeppelin-contracts/=src/external/Factory/lib/openzeppelin-contracts/contracts/",
+    "clones-with-immutable-args/=src/external/Factory/lib/clones-with-immutable-args/src/",
+    "v3-core/=src/external/Factory/lib/v3-core/",
 ]
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
